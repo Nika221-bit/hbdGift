@@ -29,8 +29,9 @@ export class App {
 
 
     { text: 'ერთადერთი ადამიანი, ვისთანაც უნდა შეადარო თავი, არის შენი წარსული მე. და ერთადერთი, ვინც უკეთესი უნდა იყოს, არის ის, ვინც ახლა ხარ.', category: 'tired' },
+    { text: 'არ აქვს მნიშვნელობა, რამდენად მაღალია მთა — მზე ყოველთვის ამოდის.', category: 'tired' },
 
-    
+     
     { text: 'Laughter is the best medicine.', category: 'humor' },
     { text: 'Don’t count your chickens before they hatch.', category: 'wisdom' },
     { text: 'Every cloud has a silver lining.', category: 'hope' }
