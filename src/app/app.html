@@ -1,12 +1,13 @@
 <main>
 <h1>happy birth day!</h1>
-<h2>გახსენი როცა ხარ</h2>
+
+<h2>გახსენი როცა ხარ... </h2>
 
 <div class="categories">
 <button (click)="showRandomCard('happy')" id="happy">ბედნიერი</button>
-<button (click)="showRandomCard('sad')">სევდიანი</button>
-<button (click)="showRandomCard('love')">შეყვარებული</button>
-<button (click)="showRandomCard('tired')">მოტივაციის გარეშე</button>
+<button (click)="showRandomCard('sad')" id="sad">სევდიანი</button>
+<button (click)="showRandomCard('love')" id="love">შეყვარებული</button>
+<button (click)="showRandomCard('tired')" id="tired">მოტივაციის გარეშე</button>
 </div>
 
 <div class="card" *ngIf="currentCard">
